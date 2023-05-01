@@ -82,7 +82,7 @@ class _LoginDemo extends State<MyHomePage> {
                     context, MaterialPageRoute(builder: (_) => SignUpPage()));
               },
               child: Text(
-                'New User? Create Account',
+                'Create Account',
                 style: TextStyle(color: Colors.blue, fontSize: 15),
               ),
             ),
