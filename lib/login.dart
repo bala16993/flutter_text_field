@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'signup.dart';
 import 'HomePage.dart';
+import 'product.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -65,7 +66,7 @@ class _LoginDemo extends State<MyHomePage> {
               child: TextButton(
                 onPressed: () {
                   Navigator.push(
-                      context, MaterialPageRoute(builder: (_) => HomePage()));
+                      context, MaterialPageRoute(builder: (_) => Product()));
                 },
                 child: Text(
                   'Login',
